@@ -1,0 +1,115 @@
+.selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    height: 100vh;
+    background-color: #f5f6f7;
+  }
+  
+  .scroll-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65%;
+    overflow: hidden;
+    margin: 20px 0;
+    flex-direction: column;
+  }
+  
+  .scroll-wheel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    /* border: 3px solid #e91e63; */
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    /* background-color: #fff; */
+    overflow-y: auto;
+    margin-top: 17px;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+
+  }
+  
+  .scroll-wheel::-webkit-scrollbar {
+    width: 0px; /* Safari and Chrome */
+    background: transparent; /* make scrollbar transparent */
+  }
+  
+  .scroll-item {
+    font-size: 40px;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #2a2a2a;
+    transition: transform 0.2s, font-size 0.2s;
+    
+  }
+  
+  .scroll-item.selected {
+    color: #e91e63;
+    font-weight: bold;
+    font-size: 42px;
+    transform: scale(1.3);
+  }
+
+  .scroll-item:hover {
+    color: #e91e63;
+    font-weight: bold;
+    font-size: 42px;
+    transform: scale(1.3);
+    background-color: #fff;
+    border-radius: 15px;
+  }
+  
+  .next-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .next-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .wheel-top {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #2a2a2a;
+    width: 100%;
+
+  }
+  .wheel-top h2 {
+    color: #2a2a2a;
+    font-weight: 600;
+
+  }
+
+  .age-next-button {
+    padding: 17px;
+    border-radius: 16px;
+    width: 95%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .age-next-button:disabled {
+    padding: 17px;
+    border-radius: 16px;
+    width: 95%;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #2a2a2a16 !important;
+  }

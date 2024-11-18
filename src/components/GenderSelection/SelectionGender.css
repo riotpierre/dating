@@ -1,0 +1,81 @@
+
+
+.gender-options-container {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 17%;
+    gap: 25px;
+    padding: 10px;
+}
+
+.gender-options-container button {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    color: #e91e63;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    
+}
+
+.gender-selection-container {
+    background-color: #f5f6f7;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+
+.selectedd {
+    background-color: #e91e63 !important;
+    color: #fff !important;
+}
+
+.selectedd:hover {
+    background-color: #e91e63 !;
+    color: #fff !important;
+
+}
+
+.gender-next-button {
+    width: 90%;
+    padding: 16px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.genderTopNow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #00000073;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.genderTopNow h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+
+
+}
+.genderLover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+
+}

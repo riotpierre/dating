@@ -1,0 +1,134 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #f5f6f7;
+  height: 100vh;
+  padding-top: 11%;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding-bottom: 10%;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.032);
+  width: 100%;
+  height: 75%;
+  padding-top: 20px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #e91e63;
+}
+.login-form input {
+  padding: 18px;
+  border-radius: 18px;
+  width: 81%;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+  background-color: #ffffff;
+  border: none;
+  color: #00000095;
+}
+
+.signUpHolder {
+  padding: 0;
+  border-radius: 18px;
+  width: 88%;
+  background-color: #ffffff;
+  margin-bottom: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  border: 1.2px solid #00000036;
+}
+
+.submit-Btn {
+  width: 91%;
+  padding: 18px;
+  border-radius: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 6%;
+}
+
+.orDesign {
+  font-size: 18px;
+  color: #00000050;
+  margin: 20px;
+}
+
+.google-Btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 4%;
+}
+
+.signMeUp {
+  width: 82%;
+  z-index: 4;
+  display: flex;
+  align-items: flex-start;
+}
+
+.signUp-info {
+  font-weight: 500;
+  color: #00000060;
+  font-size: 16px;
+  background-color: #fff;
+  margin-bottom: -10px;
+  z-index: 2;
+  display: flex;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.login-form input::placeholder {
+  color: #00000010;
+}
+
+.login-form input:focus {
+  outline: none;
+}
+
+.signUpTop {
+  width: 92%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 13px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.usersOnline {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #fff;
+  overflow: hidden;
+  object-fit: cover;
+  outline: 1.5px solid #e91e63;
+  outline-offset: 1.6px;
+}
+
+.userOnlineHolder {
+  display: flex;
+  gap: 13px;
+}
+
+.signUpTopH h2 {
+  color: #e91e63;
+  font-size: 25px;
+}

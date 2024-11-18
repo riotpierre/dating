@@ -1,0 +1,172 @@
+.confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f5f6f7;
+    color: #2a2a2a;
+    height: 95vh;
+  }
+  
+  .confirmation-content {
+    text-align: center;
+  }
+  .confirmation-content h2 {
+    margin-top: 5%;
+    font-size: 27px;
+    font-weight: 600;
+  }
+
+  .confirmation-content p {
+    color: #2a2a2a70;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .user-info {
+    margin-top: 20px;
+  }
+  
+  .user-profile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #e91e63; /* Pink outline */
+    object-fit: cover;
+  }
+  
+  .user-name {
+    font-size: 18px;
+    color: #e91e63; /* Pink */
+  }
+  .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #fff;
+    width: 90%;
+    border-radius: 18px;
+    padding: 15px;
+  }
+
+  .user-info {
+    position: absolute;
+    width: 87%;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #2a2a2a70;
+  }
+
+  .user-info span {
+    color: #00000090;
+    font-weight: 500;
+
+  }
+
+  .userPayModal {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #00000090;
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .userPayModalChild {
+    width: 85%;
+    padding: 12px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+
+  }
+
+  .userPayModalChildButton {
+    width: 100%;
+    padding: 16px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 25px;
+  }
+
+  .boldernameUserPay {
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+
+  }
+
+  .lightnameuserpay {
+    text-align: center;
+    font-weight: 500;
+    color: #00000070;
+  }
+
+  .userpayHolder {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .userstatusHeadertext {
+    position: absolute;
+    top: 7px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 91%;
+    padding: 10px;
+  }
+
+  .nameStatususerr {
+    color: #fff;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14px;
+  }
+
+  .nameStatususerrrr {
+    color: #fff;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14px;
+  }
+
+  .userstatusHeadertextt {
+    position: absolute;
+    top: 7px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 91%;
+    padding: 10px;
+  }

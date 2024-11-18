@@ -1,0 +1,44 @@
+.selection-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.options-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button.selected {
+  background-color: #ff4081;
+}
+
+.next-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.date-picker-container {
+  margin: 20px auto;
+}
+
+.datepicker {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

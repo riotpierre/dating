@@ -1,0 +1,398 @@
+.homePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.cardContainer {
+  height: 100vh;
+  width: 93%;
+  padding: 20px;
+  position: relative;
+  background: none;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 1px;
+  z-index: 1;
+  
+
+}
+
+.card {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  height: 450px;
+  border-radius: 25px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 7px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+  
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 20px; */
+  position: absolute;
+  bottom: 70px;
+  z-index: 10;
+}
+
+.buttonty {
+  background-color: #000;
+  color: white;
+  border: none;
+
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 75px;
+  height: 75px;
+  transition: background-color 0.2s;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.buttonty.like {
+  background: transparent;
+}
+
+.buttonty.match {
+  background: transparent;
+
+  width: 95px;
+  height: 95px;
+}
+
+.buttonty:hover {
+  background: transparent;
+}
+
+.buttonty.like:hover {
+  background: transparent;
+}
+
+.buttonty.match:hover {
+  background: transparent;
+}
+
+.userInfoHolder {
+  background-color: #0000008e;
+  padding: 20px;
+  height: 150px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #fff;
+}
+
+.locationIcon {
+  background-color: #f9356409;
+  padding: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 18px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topMatch {
+  width: 94%;
+  padding: 10px;
+  display: flex;
+  background-color: #f9356403;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.notificationn {
+  border: 1px solid #00000017;
+  width: 46px;
+  height: 46px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.innerTopMatch {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.strong {
+  font-size: 17px;
+  font-weight: 600;
+  color: #000;
+}
+
+.blockk {
+  color: #00000070;
+}
+
+.statusBox {
+  background-color: #000;
+  padding: 10px;
+}
+
+.statusCircle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #f93564;
+  display: flex;
+  align-items: center;
+}
+
+.homeTopMenu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.leftScreenHolder {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 110vh;
+  top: 0;
+  left: 0;
+z-index: 666;
+  background-color: #00000070;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.leftScreenHolderChild {
+  height: 100%;
+  width: 70%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.leftScreenHolderChildother {
+  height: 15%;
+  width: 25%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* justify-content: flex-end; */
+}
+.premiumuser {
+width: 85%;
+background-color: #f5f6f7;
+margin: 0 auto;
+border-radius: 12px;
+padding: 10px;
+}
+
+.tindercardname {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tindercardnameChild {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.viewDirectuserDetails {
+  background: transparent;
+  border: none;
+  padding: 8px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.viewDirectuserDetails:hover {
+  background: transparent;
+}
+
+.nameStatususerr {
+  background: transparent;
+  position: absolute;
+  padding: 0;
+
+}
+
+.nameStatususerr:hover {
+  background: transparent;
+
+}
+
+.nameStatususerr:active {
+  background: transparent;
+  transform: translateY(5px);
+
+}
+
+.premiumUser {
+  background-color: #fff;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  outline: 2px solid #f93564;
+  outline-offset: 2px;
+}
+
+.premiumUserHolder {
+  background-color: #f5f6f7;
+  width: 85%;
+  border-radius: 18px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.premiumUserHolder h4{
+color: #000000;
+font-size: 22px;
+}
+.premiumUserBox {
+  background-color: #f5f6f7;
+  padding: 7px;
+  border-radius: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px;
+  
+}
+.premiumUserHolderText p {
+  margin: 0;
+  color: #00000070;
+  font-size: 14px;
+}
+
+.premiumUserHolderText {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8%;
+  background-color: #f9356408;
+  padding: 10px;
+  border-radius: 15px;
+  gap: 4px;
+}
+
+.leftPremiungap {
+  display: flex;
+  gap: 9px;
+  flex-direction: column;
+}
+
+.premiumButton {
+  width: 100%;
+  padding: 15px;
+  border-radius: 3rem;
+  border: 1px solid #00000056;
+  background: transparent;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.premiumButton:hover {
+  background: transparent;
+  color: #f5f6f7;
+}
+
+.leftonboardingBackBTN {
+  width: 93%;
+
+  margin: 0 auto;
+}
+
+.menutextHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f5f6f7;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.menutext {
+  width: 90%;
+  background-color: #f5f6f7;
+  padding: 5px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid #00000010;
+  color: #00000080;
+  font-weight: 500;
+
+}
+
+.menutext:hover, .menutext:active {
+  width: 100%;
+  background-color: #f9356408;
+
+  padding: 5px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid #00000010;
+  color: #00000080;
+  font-weight: 500;
+
+}
+
+.viewMoreButton {
+
+  background: transparent;
+  color: #000;
+  border-radius: 3rem;
+  border: 1px solid #00000086;
+  padding: 15px;
+  font-weight: 500;
+  top: 50%;
+transform: translateY(-370px);
+  font-size: 15px;
+  /* z-index: -1; */
+  width: 270px;
+  
+}
+

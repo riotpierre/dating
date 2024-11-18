@@ -1,0 +1,141 @@
+.profile-setup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+    background-color: #f5f6f7; /* Dark background */
+    color: #f0f0f0; /* Light text */
+  
+    box-sizing: border-box;
+  }
+  
+  .profile-setup-container h2 {
+    color: #e91e63; /* Pink */
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture-preview {
+    width: 150px;
+    height: 150px;
+    border-radius: 35px;
+    outline: 3px solid #e91e63; 
+    outline-offset: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transform: translateY(-75%);
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .profile-picture-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profile-picture-preview .placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    color: #e91e63; 
+  }
+  
+  .profile-setup-container input {
+    margin-bottom: 20px;
+  }
+  
+  .profile-setup-container button {
+    background-color: #e91e63; /* Pink */
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-setup-container button:disabled {
+    background-color: #d81b60; /* Darker pink for disabled */
+    cursor: not-allowed;
+  }
+  
+  .profile-setup-container p {
+    color: #f44336; /* Error red */
+  }
+  
+  .profileHolder {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 67%;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    justify-content: flex-end;
+    padding-bottom: 4%;
+
+  }
+
+  .onboardingBackBTN {
+    
+    padding: 10px;
+    width: 93%;
+    position: absolute;
+    top: 0;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .onboardingBackBTN button {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    background-color: #fff;
+  }
+
+  .onboardingBottomm button {
+    width: 100%;
+    border-radius: 18px;
+    padding: 18px;
+    font-size: 18px;
+    margin-top: 5%;
+    font-weight: 600;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .onboardingBottomm {
+ 
+    padding: 10px;
+    border-radius: 25px;
+    width: 90%;
+    background-color: #f5f6f7;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.absoluter {
+    position: absolute;
+    bottom: 460px;
+    z-index: 9440;
+    right: 115px;
+
+}

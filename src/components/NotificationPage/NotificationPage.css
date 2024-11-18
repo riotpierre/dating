@@ -1,0 +1,87 @@
+/*
+ Software built by  Adeweb Developer Africa
+ portfolio website: https://adeweb-developer.vercel.app
+ whatsApp Message: https://wa.me/23407043455416
+ I am open for your software development gig, thank you  
+ */
+
+.notificationPage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+  color: #2a2a2a;
+  height: 100vh;
+  background-color: #f5f6f7;
+}
+
+.notificationsList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 95%;
+  align-items: center;
+  justify-content: center;
+}
+
+.notificationItem {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 17px;
+  width: 91%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notification-avatar {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+  outline: 2px solid #2a2a2a50;
+  outline-offset: 2px;
+  margin-bottom: 9px;
+}
+
+.notificationsList {
+  margin-top: 20px;
+}
+
+.notificationItem.unseen {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+.notificationItem.seen {
+  background-color: #ffffff;
+  color: #999;
+}
+
+.notificationItem p {
+  margin: 0;
+}
+
+.notificationItem span {
+  font-size: 0.85em;
+  color: #666;
+}
+.statusPrevieww {
+  width: 100px;
+  height: 130px;
+  background-color: #f5f6f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+  object-fit: cover;
+}
+
+.statusnamee {
+  font-weight: 600;
+  color: #2a2a2a;
+  font-size: 110%;
+  margin-bottom: 2%;
+}

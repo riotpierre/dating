@@ -1,0 +1,186 @@
+/* Software built by  Adeweb Developer Africa
+portfolio website: https://adeweb-developer.vercel.app
+whatsApp Message: https://wa.me/23407043455416
+I am open for your software development gig, thank you */
+  
+  .matchedUsersPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f6f7;
+    min-height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+   
+  }
+  
+  .matchedUsersPage h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .usersList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; 
+    width: 100%;
+    background-color: #fff;
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 25px;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 25%;
+  }
+
+  .matchesText {
+    margin-top: 4.5rem;
+    width: 93%;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #e91e6307;
+    flex-direction: row;
+    border-radius: 18px;
+    color: #00000070;
+    font-size: 14px;
+  }
+
+  .matchText {
+    margin-bottom: 5px;
+  
+    font-weight: 700;
+    color: #000000;
+    font-size: 25px;
+    
+  }
+  
+  .userCard {
+    position: relative; /* Position relative for absolute positioning of child elements */
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.052);
+    overflow: hidden;
+   
+    transition: transform 0.3s;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .userCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .userCard img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  .userInfo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(9px);
+    color: #fff;
+    box-sizing: border-box;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+   
+    
+  }
+  
+  .userInfo h3, .userInfo p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .userActions {
+    display: flex;
+    justify-content: space-around;
+ 
+    padding: 0 10px;
+    gap: 10px;
+  }
+  
+  .messageButton, .deleteButton {
+    background: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    border-radius: 0;
+    width: 47%;
+    height: 70px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .messageButton:hover {
+    background-color: #00000020;
+  }
+  
+  .deleteButton {
+    border-left: 2px solid #f5f6f7;
+    width: 52%;
+    height: 70px;
+    color: #fff;
+    
+  }
+  
+  .deleteButton:hover {
+    background-color: #0000002a;
+  }
+
+  .drawer {
+    position: absolute;
+    background-color: #00000030;
+    height: 5px;
+    z-index: 7553;
+    width: 90px;
+    top: 10px;
+    border-radius: 3rem;
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .userCard {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center; /* Center the items */
+        width: 48%;
+    }
+  }
+
+  .userCardNo {
+    font-size: 18px;
+    color: #d81b60;
+    font-weight: 600;
+
+  }
+
+  .userNameMatch {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+
+}
+

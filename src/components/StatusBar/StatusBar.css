@@ -1,0 +1,70 @@
+.statusBar {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 10px;
+  padding-top: 22px;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+
+}
+
+.divide {
+  width: 86%;
+  height: 2px;
+  background-color: #00000061;
+  filter: blur(5px);
+  margin: 15px;
+  border-radius: 3rem;
+}
+
+.statusItem {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+.statusImage {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  outline: 2px solid #e91e63;
+  outline-offset: 4px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.statusUpload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px; 
+  height: 60px;
+  border-radius: 50%;
+  border: 2px dashed #e91e63;
+  cursor: pointer;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.statusUploadText {
+  font-size: 24px;
+  color: #e91e63;
+}
+
+.statusInput {
+  position: absolute;
+  opacity: 0;
+}
+
+.statusnameee {
+  color: #00000091;
+}

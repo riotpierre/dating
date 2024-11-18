@@ -1,0 +1,219 @@
+.profile-container {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 6rem;
+  padding-bottom: 30% !important;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.settings-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #e91e63;
+  font-size: 20px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 96%;
+  gap: 20px;
+}
+
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.user-infoo {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  width: 97%;
+  border-radius: 25px;
+  gap: 10px;
+}
+
+.user-infoo h3,
+.user-infoo p {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.user-infoo h3 {
+  font-size: 22px;
+  color: #333;
+}
+
+.user-infoo p {
+  font-size: 18px;
+  color: #666;
+}
+
+.user-infoo svg {
+  margin-right: 10px;
+  color: #e91e63;
+  background-color: #f5f6f7;
+  border-radius: 50%;
+  padding: 13px;
+}
+
+.success-message {
+  color: green;
+}
+
+.user-infoo {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  width: 96%;
+  border-radius: 25px;
+}
+
+.profile-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-box h3 {
+  color: #000000;
+}
+
+.profile-box p {
+  color: #00000060;
+}
+
+.additional-images {
+  margin-top: 20px;
+}
+
+.additional-picture {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  margin: 5px;
+  border: 1px dashed #e91e63;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.upload-more-btn {
+  padding: 17px;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 3rem;
+  display: block;
+  border: 1px solid #0000003b;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+.upload-more-btn:hover {
+  background-color: #d81b60;
+}
+.boldernamee {
+  width: 100%;
+  text-align: left;
+  font-size: 1.2rem;
+  color: #000000;
+  margin-bottom: 1.5px;
+  font-weight: 600;
+}
+
+.boldernameesmall {
+  width: 70%;
+  text-align: left;
+  font-size: 14px;
+  color: #00000063;
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+
+.additional-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.delete-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #f5f6f7;
+
+  color: #e91e63;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid #0000003b;
+}
+
+.delete-button:hover {
+  background-color: #fff;
+}
+
+.titleBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  color: #00000079;
+  font-size: 14px;
+}
+
+.titleBoxx {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  color: #00000079;
+  font-size: 14px;
+}
+
+.titleBox button {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: #e91e63;
+  font-size: 7px;
+  border: 1px solid #00000040;
+}

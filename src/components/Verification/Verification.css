@@ -1,0 +1,207 @@
+.verification {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f6f7;
+    color: #2a2a2a;
+    padding-top: 5rem;
+    overflow: hidden;
+  }
+  
+  .verification h2 {
+    color: #e91e63;
+    margin-bottom: 20px;
+  }
+  
+  .file-input-container {
+    margin-bottom: 20px;
+  }
+  
+  .file-input-container input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .image-preview {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid #e91e63; /* Pink outline */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+  
+  .image-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  button {
+    background-color: #e91e63; /* Pink */
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d81b60; /* Darker pink on hover */
+  }
+  
+  p {
+    color: #f44336; /* Error red */
+    margin-top: 10px;
+  }
+  
+  .verification {
+    text-align: center;
+  }
+  
+  .file-input-container {
+    position: relative;
+    margin: 20px 0;
+    cursor: pointer;
+  }
+  
+  .image-placeholder,
+  .image-preview {
+    width: 95%;
+    height: 250px;
+    border: 2px dashed #e91e63;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #e91e6306;
+  }
+  
+  .image-placeholder p {
+    color: #e91e63;
+    font-size: 14px;
+  }
+  
+  .image-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.proofImages {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.signUpTopHH h2 {
+    color: #e91e63;
+    font-size: 25px;
+    margin: 0;
+    text-align: left;
+}
+
+.signUpTopHH p {
+    text-align: right;
+}
+
+.signUpTopHH {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.bankHolder {
+    /* background-color: #2a2a2a; */
+    
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.BankInfo {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    background-color: #e91e6305;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.bankIcon {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #e91e6320;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boldBank {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.boldBankHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.fairBank {
+    color: #00000069;
+}
+.banknameHolder {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+
+.bankNumber {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.bankDesign {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bankDesignn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.fadeLetter {
+    color: #00000069;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.submit-buttonn:disabled {
+}
+
+.onboardingBottomm button:disabled {
+    background-color: #2a2a2a17 !important;
+
+}

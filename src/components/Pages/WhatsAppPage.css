@@ -1,0 +1,38 @@
+.whatsapp-page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #f5f6f7;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 5.5rem;
+}
+
+.whatsapp-link {
+  text-decoration: none;
+  font-size: 18px;
+  width: 100%;
+  font-weight: 600;
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.contact-button {
+  background-color: #25d366;
+  color: white;
+  cursor: pointer;
+
+  width: 100%;
+  border-radius: 3rem;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 21px;
+}
+
+.contact-button:hover {
+  background-color: #1da851;
+}

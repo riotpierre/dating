@@ -1,0 +1,85 @@
+.fullScreenStatus {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    object-fit: contain;
+
+
+  }
+  
+  .statusHeader {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #00000040;
+    padding: 10px;
+    border-radius: 20px;
+    width: 91%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 800;
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+
+  }
+
+  .statusHeadertext {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profilePicture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .statusClose {
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .statusPicture {
+    width: 95%;
+    height: 80%;
+  }
+  .viewDesign {
+
+    position: absolute;
+    bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+
+  }
+
+  .statusDescription {
+    font-size: 14px;
+    font-weight: 500;
+
+  }
+
+  .nameStatus {
+    font-weight: 600;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }

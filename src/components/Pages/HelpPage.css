@@ -1,0 +1,60 @@
+.help-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  background-color: #f5f6f7;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 5.5rem;
+  }
+  
+  .faq {
+    margin-bottom: 20px;
+    width: 85%;
+    padding: 20px;
+    border-radius: 25px;
+    color: #000000;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+
+  .faq h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+   
+  }
+  
+  .faq p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #00000075;
+  }
+  
+  .faq ul, .faq ol {
+    margin-left: 20px;
+  }
+  
+  .faq a {
+    color: #e91e63;
+    text-decoration: none;
+  }
+  
+  .faq a:hover {
+    text-decoration: underline;
+  }
+  .faq {
+    background-color: #fff;
+
+  }
+
+  .whatsappp {
+    width: 100%;
+    border-radius: 3rem;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 21px;
+  }
